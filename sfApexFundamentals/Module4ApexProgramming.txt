@@ -1,0 +1,11 @@
+List<Integer> scores = new List<Integer>();
+scores.add(10);
+scores.add(20);
+scores.add(30);
+scores.add(40);
+Integer totalScore = 0;
+for (integer score : scores){
+    totalScore += score;
+    System.debug(score);
+    System.debug('The total score is ' + totalScore);
+}

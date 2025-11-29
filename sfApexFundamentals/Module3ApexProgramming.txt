@@ -1,0 +1,14 @@
+List<String> guestList = new List<String>();
+guestList.add('Batman');
+guestList.add('Superwoman');
+guestList.add('Spiderman');
+guestList.add('Robin');
+Integer listSize = guestList.size();
+System.debug('The current size of the guest list is ' + listSize);
+
+If (!guestList.contains('Superman')){
+    guestList.add('Superman');
+    System.debug('Superman has been added to the guest list');
+} else {
+    System.debug('Superman is already in the guest list');
+}

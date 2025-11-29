@@ -1,0 +1,8 @@
+Decimal annualRevenue = 2000000;
+If (annualRevenue > 1000000) {
+    System.debug('Status: VIP Platinum');
+} else if (annualRevenue > 500000 && annualRevenue < 1000000){
+    System.debug('Status: Gold');
+} else {
+    System.debug('Status: Standard');
+}

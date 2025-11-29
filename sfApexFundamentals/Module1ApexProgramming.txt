@@ -1,0 +1,5 @@
+Decimal itemPrice = 50.00;
+Integer quantity = 3;
+Decimal total = itemPrice * quantity;
+String totalStringValue = String.valueOf(total);
+System.debug('The total cost is' + totalStringValue);
